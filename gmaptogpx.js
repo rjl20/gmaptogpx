@@ -1,10 +1,10 @@
 /*
-  GMapToGPX 6.4j
+  GMapToGPX 6.4k
   Originally based in part on the "Improved MSN and Google GPS GPX Waypoint 
   Extraction" bookmarklet described at http://badsegue.org/archives/2005/04/21/
 
   Josh Larios <hades@elsewhere.org>
-  August 3, 2005 - July 12, 2011
+  August 3, 2005 - February 12, 2014
 
   WARNING: Highly dependent on internal formats that aren't part of
   the API, so subject to complete breakdown at any time, outside my
@@ -21,7 +21,7 @@
 */
 
 var error = 0;
-var version = '6.4j';
+var version = '6.4k';
 var googledoc = ""; // will hold retrieved google info
 var googleurl = "";
 var gpxvar = ""; // will hold gHomeVPage structure, even for IE

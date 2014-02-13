@@ -1,7 +1,7 @@
 javascript:
 (function(){
   var script=document.createElement('script');
-  script.src='http://www.elsewhere.org/GMapToGPX/gmaptogpx.js';
+  script.src='//raw.github.com/rjl20/gmaptogpx/master/gmaptogpx.js';
   document.getElementsByTagName('head')[0].appendChild(script);
 }
 )()
